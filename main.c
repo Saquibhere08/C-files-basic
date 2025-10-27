@@ -8,11 +8,9 @@ Welcome to GDB Online.
 *******************************************************************************/
 #include <stdio.h>
 
-int main()
+void main()
 {
-    char ch='a'+2;
-    printf("%c",ch);
-    printf("\n%d",ch);
+   int x=200;
+   printf("%d",~x);
 
-    return 0;
 }
